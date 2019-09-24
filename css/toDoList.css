@@ -1,3 +1,49 @@
 body {
     background-color: palegoldenrod;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#instr1 {
+    background-color: green;
+}
+
+#instr2 {
+    background-color: green;
+}
+
+#instr3 {
+    background-color: green;
+}
+
+/* styles for the input element, adds to To-Do List */
+
+input {
+    min-width: 65%;
+}
+
+#submit {
+    background-color: red;
+
+    
+}
+
+#submit:hover {
+    background-color: orangered;
+}
+
+/* Styles for when a list item is marked done */
+
+.done {
+    background-color: #40f756 !important;
+}
+
+.delete {
+    display: none;
+}
+
+li > button {
+    float: right;
+    border: none;
+    
 }

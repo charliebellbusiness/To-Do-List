@@ -8,6 +8,7 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/toDoList.css">
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -20,21 +21,31 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12">
-                <p>Enter what you need to do into the input field, hit submit to add items to the list</p>
-                <p>Click the item to mark it as complete</p>
-                <p>Click the "X" to remove items from the list</p>
-            </div>
-        </div>
+        <br>
 
         <div class="row">
             <div class="col-12">
-                <input type="text" placeholder="What do you need to do?" maxlength="30">
-                <button type=submit>Submit</button>
+                <p id="instr1">Enter what you need to do into the input field, hit submit to add items to the list</p>
+                <p id="instr2">Click the item to mark it as complete</p>
+                <p id="instr3">Click the "X" to remove items from the list</p>
             </div>
         </div>
 
+        <br>
+
+        <div class="row">
+            <div class="col-12">
+                <input id="userInput" type="text" placeholder="What do you need to do?" maxlength="30">
+                <button type=submit id="submit">Submit</button>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+            <div class="col-12">
+                <ul></ul> <!-- The list starts out empty, items added by JS -->
+            </div>
     </div>
 
 
@@ -49,7 +60,7 @@
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src=../js/toDoList.js></script>
+    <script type="text/javascript" src="../js/toDoList.js"></script>
 
 </body>
 
