@@ -5,15 +5,26 @@ body {
 }
 
 #instr1 {
-    background-color: green;
+    background-color: royalblue;
+    margin: 0;
+    white-space: nowrap;
 }
 
 #instr2 {
-    background-color: green;
+    background-color: royalblue;
+    padding-top: 3%;
+    margin: 0;
 }
 
 #instr3 {
-    background-color: green;
+    background-color: royalblue;
+    padding-top: 3%;
+    margin: 0;
+}
+
+#instr4 {
+    background-color: royalblue;
+    padding-top: 3%;
 }
 
 /* styles for the input element, adds to To-Do List */
@@ -22,6 +33,14 @@ input {
     min-width: 65%;
 }
 
+ul {
+    text-align: left;
+}
+
+li {
+    border: 2px transparent;
+    margin-top: 4px;
+}
 #submit {
     background-color: red;
 
@@ -35,7 +54,9 @@ input {
 /* Styles for when a list item is marked done */
 
 .done {
-    background-color: #40f756 !important;
+    background-color:  #40f756 !important;
+    text-decoration: line-through;
+    text-decoration-color: red;
 }
 
 .delete {
@@ -43,7 +64,9 @@ input {
 }
 
 li > button {
+    /* position: fixed; */
     float: right;
     border: none;
-    
+    background: none;
+    margin-right: 5%;
 }
