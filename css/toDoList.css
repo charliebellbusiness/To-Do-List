@@ -1,30 +1,32 @@
 body {
-    background-color: palegoldenrod;
+    background-color: #eee8aa;
     text-align: center;
     font-family: 'Didact Gothic', sans-serif;
 }
 
 #instr1 {
-    background-color: royalblue;
+    background-color: rgb(101, 139, 255);
     margin: 0;
     white-space: nowrap;
+    padding-top: 3%;
 }
 
 #instr2 {
-    background-color: royalblue;
+    background-color: rgb(101, 139, 255);
     padding-top: 3%;
     margin: 0;
 }
 
 #instr3 {
-    background-color: royalblue;
+    background-color: rgb(101, 139, 255);
     padding-top: 3%;
     margin: 0;
 }
 
 #instr4 {
-    background-color: royalblue;
+    background-color: rgb(101, 139, 255);
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 /* styles for the input element, adds to To-Do List */
@@ -38,9 +40,14 @@ ul {
 }
 
 li {
-    border: 2px transparent;
-    margin-top: 4px;
+    border: 3px transparent;
+    margin-top: 10px;
 }
+
+button {
+    background-color: red;
+}
+
 #submit {
     background-color: red;
 
@@ -54,7 +61,7 @@ li {
 /* Styles for when a list item is marked done */
 
 .done {
-    background-color:  #40f756 !important;
+    background-color: #D9D39B !important;
     text-decoration: line-through;
     text-decoration-color: red;
 }
@@ -68,5 +75,5 @@ li > button {
     float: right;
     border: none;
     background: none;
-    margin-right: 5%;
+    background-color: coral;
 }
