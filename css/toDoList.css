@@ -70,6 +70,10 @@ button {
     display: none;
 }
 
+.instructions {
+    font-size: 90%;
+}
+
 li > button {
     /* position: fixed; */
     float: right;
